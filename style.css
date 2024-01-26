@@ -1,0 +1,41 @@
+body{
+    background-color: #2b2e56;
+}
+h1{
+    text-align: center;
+    color: #f0f8ff;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: grid;
+    padding: 30px;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box{
+    /* border: 1px solid #ca5c5c; */
+    padding: 30px;
+}
+.green{
+    background-color: #6dbe4f;
+}
+.red{
+    background-color: #ec3437;
+}
+.yellow{
+    background-color: #fbb22f;
+}
+
+#box-2{
+    grid-column: 2 / 4;
+
+}
+#box-1{
+    grid-row: 1 / 4;
+}
+
+#box-6{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
